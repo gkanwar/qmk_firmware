@@ -1,3 +1,3 @@
 UNICODEMAP_ENABLE = yes
 RGB_MATRIX_KEYPRESSES = yes
-DEBOUNCE_TYPE = sym_eager_pk
+DEBOUNCE_TYPE = asym_eager_defer_pk

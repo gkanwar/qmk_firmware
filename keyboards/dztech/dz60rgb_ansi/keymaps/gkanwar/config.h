@@ -1,8 +1,13 @@
 #pragma once
 
 /// Unicode for international symbol inclusion
-#define UNICODE_SELECTED_MODES UC_MAC, UC_LNX
+#define UNICODE_SELECTED_MODES UNICODE_MODE_MACOS, UNICODE_MODE_LINUX
 #define UNICODE_KEY_MAC KC_LALT
+#undef DEBOUNCE
+#define DEBOUNCE 10
+
+// NKRO
+#define FORCE_NKRO
 
 /// Remove useless RGB matrix patterns
 // #undef ENABLE_RGB_MATRIX_ALPHAS_MODS
